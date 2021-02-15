@@ -2,7 +2,6 @@ import React from 'react'
 import PrimaryHeader from '../Header/PrimaryHeader/PrimaryHeader'
 import Toolbar from '../Header/Toolbar/Toolbar'
 
-
 const layout=(props)=>{
 return(
     <div>

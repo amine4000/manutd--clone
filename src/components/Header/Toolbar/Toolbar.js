@@ -7,7 +7,6 @@ import SearchIconSVG from '../../../assets/search.svg'
 import UserIconSVG from '../../../assets/user.svg'
 import hcl from '../../../assets/hcl.png'
 
-
 const toolbar=()=>{
     var toolbarClasses=[classes.sticky, classes.Toolbar].join(' ')
 
@@ -18,6 +17,7 @@ const toolbar=()=>{
                 <img className={classes.Logo} src={LogoSrc}/>
                 </a>
                 <NavigationItems/>
+                
             </div>
 
         <div className={classes.Toolbarunit2}>
@@ -47,6 +47,7 @@ const toolbar=()=>{
         <nav>
             ...
         </nav> */}
+
     </header>
 
     )
