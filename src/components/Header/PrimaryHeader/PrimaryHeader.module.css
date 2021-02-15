@@ -1,0 +1,25 @@
+.primaryHeader{
+    height: 45px;
+    background: #1a1a1a;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.4);
+    z-index: 99;
+    margin: 0;
+}
+
+.sponsors{
+    display:flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    height: inherit;
+    margin-right: .5rem;
+}
+
+.sponsorLogo{
+    height: auto;
+    width: auto;
+    max-height: 27px;
+    max-width: 100px;
+    margin-left: .5rem;
+}
