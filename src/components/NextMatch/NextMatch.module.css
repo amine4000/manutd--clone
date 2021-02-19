@@ -1,0 +1,97 @@
+.NextMatch__ImgBox{
+    margin-top: 3rem;
+    position: relative;
+}
+
+.NextMatch__Pic{
+    max-height: 90vh;
+    height: 100%;
+    width: 100%;
+    max-width: 100vw;
+}
+
+.NextMatch__ucl{
+    position: absolute;
+    top: 10%;
+    width: 9rem;
+    left: 50%;
+}
+
+.NextMatch__header{
+position: absolute;
+top: 30%;
+font-size: 13px;
+width: 25rem;
+text-align: center;
+left: 43%;
+color: white;
+}
+
+.NextMatch__teams{
+    position: absolute;
+    bottom: 17rem;
+    left: 29rem;
+}
+
+.NextMatch__ucl{
+
+}
+
+.NextMatch__teams{
+    display: flex;
+}
+
+.ClubLogos{
+    width: 11rem;
+    height: 11rem;
+}
+
+.ManUTD{
+    color: white;
+    font-weight: 800;
+    font-size: 5rem;
+    align-self: center;
+    margin-right: 2rem;
+}
+
+.versus{
+    font-size: 3rem;
+    color: white;
+    margin: 0 5rem;
+    align-self: center;
+}
+
+.PSG{
+    color: white;
+    font-weight: 800;
+    font-size: 5rem;
+    align-self: center;
+    margin-left: 2rem;
+}
+
+.btn{
+    position: absolute;
+}
+
+.btn{
+    position: absolute;
+    bottom: 3rem;
+    background-color: rgb(196, 6, 6);
+    border: none;
+    padding: 2rem 4rem;
+    border-radius: 5rem;
+    color: white;
+    font-size:1.2rem;
+    left: 48%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: rgb(179, 11, 11);
+}
+
+.btn a{
+    color: inherit;
+text-decoration: none;
+}

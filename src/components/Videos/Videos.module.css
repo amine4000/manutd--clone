@@ -1,0 +1,89 @@
+.Video{
+    margin-top: 2.4rem;
+    /* margin-left: 6rem; */
+    display: flex;
+    border-radius: 3%;
+    border: 0px solid rgba(var(--color-white),.1);
+    width: 60rem;
+    background-color: var(--color-white);
+    overflow: hidden;
+}
+
+
+.Video:hover{
+    box-shadow: 9px 6px 16px rgba(0,0,0,0.2);
+}
+
+.Video__ImgBox{
+    display: flex;
+    /* width: 24.44rem; */
+    height: 32rem;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.Video__Pic{
+    position: relative;
+    left: 0%;
+    width: 31.3rem;
+}
+
+.Video__text{
+    margin: 0 2.3rem;
+}
+
+.Video__header{
+    transform: translateY(3rem);
+}
+
+.Video__title{
+    font-size: 2.3rem;
+    line-height: 1.3;
+    width: 33rem;
+    margin-top: 2rem;
+    font-family: 'BebasNeueBold','Helvetica','sans-serif';
+    display: block;
+    text-transform: uppercase;
+
+}
+
+.Video__title__small{
+    font-size: 2rem;
+}
+
+.Video__footer{
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.Video__desc{
+    width: 30rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.Video__desc__small{
+    font-size: 1.2rem;
+}
+
+.Video__TimeSection{
+    display: flex;
+    margin-top: 37%;
+    margin-right: auto;
+    font-size: inherit;
+}
+
+.Video__time{
+    margin-right: 1rem;
+    font-size: inherit;
+}
+
+.Video__section{
+    margin-left: 1rem;
+    font-size: inherit;
+}
+.Video__shareIcon{
+    margin-top: 37%;
+    font-size: inherit;
+}
